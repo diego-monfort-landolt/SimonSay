@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Say...</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer ></script>
+    
 </head>
 <body>
+    <video autoplay muted loop id="myVideo">
+        <source src="bg.mp4" type="video/mp4">
+      </video>
     <div class="simon">
-        <div class="title">Simon Say</div>
+        <div class="title">Simon Say...</div>
           <button id="startButton">Start</button>
             <div class="buttonContainer">
                 <div class="square red"></div>
@@ -21,6 +24,6 @@
             
         <div id="round"></div>
     </div>
-    
+    <script src="script.js" ></script>
 </body>
 </html>

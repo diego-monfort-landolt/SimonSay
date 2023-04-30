@@ -18,29 +18,29 @@ body {
 }
 .square {
     border-radius: 5px;
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     cursor: pointer;
     
 }
 .square:active, .active {
-    filter: brightness(125%);
+    filter: brightness(155%);
 }
 .red {
     background-color: #ee6352;
-    box-shadow: 3px 0px 5px 0px #000;
+    box-shadow: 3px 0px 5px 0px #fff;
 }
 .blue {
     background-color: #08b2e3;
-    box-shadow: 3px 0px 5px 0px #000;
+    box-shadow: 3px 0px 5px 0px #fff;
 }
 .green {
     background-color: #57a773;
-    box-shadow: 3px 0px 5px 0px #000;
+    box-shadow: 3px 0px 5px 0px #fff;
 }
 .yellow {
     background-color: #ffdf64;
-    box-shadow: 3px 0px 5px 0px #000;
+    box-shadow: 3px 0px 5px 0px #fff;
     
 }
 #startButton {
@@ -55,7 +55,7 @@ body {
     background-color: #ee6352;
     padding: 5px;
 
-    box-shadow: 5px 7px 5px 0px #000; 
+    box-shadow: 4px 6px 4px 0px #000; 
 }
 #startButton:disabled {
     background-color: #08b2e3;
@@ -66,11 +66,19 @@ body {
     padding: 5px;
     border: none;
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 6px 5px 5px 0px #000;
+    box-shadow: 5px 4px 4px 0px #000;
+    outline: none;
 }
 .winner {
     animation: spin 1s ease-in-out;
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
 @keyframes spin {
     100% { transform: rotate(180deg);}
 }
