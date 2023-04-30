@@ -24,7 +24,7 @@ body {
     
 }
 .square:active, .active {
-    filter: brightness(155%);
+    filter: brightness(195%);
 }
 .red {
     background-color: #ee6352;
@@ -79,6 +79,7 @@ body {
     min-width: 100%;
     min-height: 100%;
   }
+
 @keyframes spin {
     100% { transform: rotate(180deg);}
 }
